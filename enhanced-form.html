@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet choice</title>
+</head>
+<body>
+
+    <header>
+    <h1>Pets Avilable</h1>
+    </header>
+
+    <section id="intro">
+    <dl>
+
+        <dt>Cats</dt>
+        <dd>Different breed types</dd>
+
+        <dt>Dogs</dt>
+        <dd>Four breeds available</dl>
+
+    </dl>
+</section>
+
+    <section id="typesOfPets">
+  <ol>
+        <li>Cat
+            <ul>
+                <li>British Shorthair</li>
+                <li>Egyptian Mau</li>
+                <li>African cat</li>
+        </ul>
+    </li>
+
+        <li>dog
+            <ul>
+                <li>Mutina</li>
+                <li>German Shephard</li>
+            </ul>
+        </li>
+    </ol>
+
+    </section>
+
+    <section id="petPrices">
+        <table>
+            <caption>Available</caption>
+            <thead>
+                <tr>
+                     <th>Name</th>
+                     <th>Price(ksh)</th>
+                </tr>
+                </thead>
+            <tbody>
+                <tr>
+                    <td>British Shorthair</td>
+                    <td>150000</td>
+                </tr>
+                <tr>
+                    <td>Egyptian Mau</td>
+                    <td>80000</td>
+                </tr>
+                <tr>
+                    <td>African cat</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td>Mutina</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td>German Shephard</td>
+                    <td>10500</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+</section>
+
+<section id="petMedia">
+    <img src="cat636.png" alt="British Shorthair cat" width="350px" height="200px">
+    <img src="mutina.png" alt="Mutina Kenyan Dog" width="350px" height="200px">
+    <img src="gShef.png" alt="German Shephard" width="350px" height="200px">
+    <p>Dog barking</p>
+    <audio controls src="dog-barking-70772.mp3"></audio>
+    <p>Hurry and get yours....</p>
+    <video src="cat.mp4" autoplay controls height="350px" width="200px"></video>
+</section>
+
+    <section id="orderInfo">
+        <form>
+            <h2>Order Details</h2>
+
+            <p>Order Number</p>
+
+            <label for="order"></label>
+            <input id="order" type="text" readonly value="SC/BMD/25">
+
+            <p>What is your name:</p>
+            <label for="fullName"></label>
+            <input id="fullName" type="text" placeholder="John Khalifa" required minlength="5" maxlength="20">
+            
+            <p>Your phone Number</p>
+            <label for="PhoneNumber"></label>
+            <input id="PhoneNumber" typr="tel" required>
+           
+            <p>Pet Descision</p>
+            <label for="pet"></label>
+            <input id="pet" type="text" required autocomplete="on">
+
+            <p>Extra Information</p>
+            <textarea id="extra" width="200px" height="200px" placeholder="Additional details on Pet"></textarea>
+            
+            <button>Submit</button>
+        </form>
+    </section>
+
+    <section id="contactInfo">
+        <footer>
+            Contact as on +254XXXXXXXX
+        </footer>
+    </section>
+
+</body>
+</html>
